@@ -65,7 +65,7 @@ class Main2Activity : AppCompatActivity() {
             else{
                 handler.removeCallbacks(runnable)
                 val intent = Intent(this, Main3Activity::class.java)
-                intent.putExtra("Result", 3)
+                intent.putExtra("Result", gyoza_cnt)
                 startActivity(intent)
             }
 
